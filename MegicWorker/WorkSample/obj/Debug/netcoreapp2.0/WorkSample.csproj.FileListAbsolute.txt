@@ -1,0 +1,11 @@
+D:\Myproject\NetCore\MegicWorker\WorkSample\bin\Debug\netcoreapp2.0\WorkSample.deps.json
+D:\Myproject\NetCore\MegicWorker\WorkSample\bin\Debug\netcoreapp2.0\WorkSample.runtimeconfig.json
+D:\Myproject\NetCore\MegicWorker\WorkSample\bin\Debug\netcoreapp2.0\WorkSample.runtimeconfig.dev.json
+D:\Myproject\NetCore\MegicWorker\WorkSample\bin\Debug\netcoreapp2.0\WorkSample.dll
+D:\Myproject\NetCore\MegicWorker\WorkSample\bin\Debug\netcoreapp2.0\WorkSample.pdb
+D:\Myproject\NetCore\MegicWorker\WorkSample\obj\Debug\netcoreapp2.0\WorkSample.csprojAssemblyReference.cache
+D:\Myproject\NetCore\MegicWorker\WorkSample\obj\Debug\netcoreapp2.0\WorkSample.csproj.CoreCompileInputs.cache
+D:\Myproject\NetCore\MegicWorker\WorkSample\obj\Debug\netcoreapp2.0\WorkSample.AssemblyInfoInputs.cache
+D:\Myproject\NetCore\MegicWorker\WorkSample\obj\Debug\netcoreapp2.0\WorkSample.AssemblyInfo.cs
+D:\Myproject\NetCore\MegicWorker\WorkSample\obj\Debug\netcoreapp2.0\WorkSample.dll
+D:\Myproject\NetCore\MegicWorker\WorkSample\obj\Debug\netcoreapp2.0\WorkSample.pdb
