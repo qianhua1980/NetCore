@@ -12,17 +12,21 @@ namespace WorkSample
             var config = GetConfig();
             var data = GetData();
 
-            var filterData = from s1 in data.DataList
-                    join s2 in config on s1.Name equals s2
-                    select s1;
+            //var filterData = from s1 in data.DataList
+            //        join s2 in config on s1.Name equals s2
+            //        select s1;
 
-            var distinationEntity = new DistinationEntity();
+            //var distinationEntity = new DistinationEntity();
 
-            distinationEntity.DistinationDataList = filterData.Select(x => new DistinationEntityItem { DistinationName = x.Name, DistinationCode = x.Code   }).ToList();
+            //distinationEntity.DistinationDataList = filterData.Select(x => new DistinationEntityItem { DistinationName = x.Name, DistinationCode = x.Code   }).ToList();
 
 
 
-            var b = filterData;
+            //var b = filterData;
+
+            var workFactory = new WorkFactory(new Worker(), data);
+                workFactory.AddConfig(a => GetConfig1(a)).AddConfig(a => GetConfig2(a));
+            var b = workFactory.Run();
 
             Console.WriteLine("Hello World!");
 
@@ -36,6 +40,18 @@ namespace WorkSample
                 "a", "b", "c"
             };
             return list;
+        }
+
+        public static void GetConfig1(List<string> config)
+        {
+            config.Add("a");
+            config.Add("b");
+            config.Add("c");
+        }
+
+        public static void GetConfig2(List<string> config)
+        {
+            config.Add("d");
         }
 
         public static DataEntity GetData()
